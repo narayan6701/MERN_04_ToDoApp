@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Do it !!</title>
+    <link rel="shortcut icon" href="assets/app_icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <span id="branding">
+        <img src="assets/app_icon.png" alt="Logo" id="logo" class="branding" />
+      </span>
+    </div>
+
+    <div class="container">
+      <h1>Let's Do it !!</h1>
+      <input type="text" id="new-task" placeholder="Add a new task" />
+      <button id="add-task">Add</button>
+      <div class="filters">
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter="completed">Completed</button>
+        <button class="filter" data-filter="pending">Pending</button>
+      </div>
+      <ul id="tasks"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
